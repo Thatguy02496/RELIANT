@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="../css/index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>RELIANT</h1>
+                <p>Saihan Qimuge</p>
+ 
+            </header>
+            <nav class="main-nav">
+                <ul>
+                    <li><a class="maori" herf="maori.html">Maori</a></li>
+                    <li><a class="home" href="index.html">Home</a></li>
+                    <li><a class="images" href="images.html">Images</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+ 
+        <main>
+            <div class="grid-container">
+                <section class="grid-head">
+                    <h4>RELIANT</h4>
+                   
+                </section>
+                <section class="grid-text">
+                    <div class="text">
+                    <sub>
+                    <p>   Kua hiahia koe ki tetahi motuka e utu ana, e mau tonu ana, me hoko koe i te robin whakawhirinaki. Ko te robin whakawhirinaki he miihini kaha 850 cc ehara i te mea he kaha anake engari he ahua ohanga pai rawa atu kia mohio ai koe kei te peia e koe he mahi pai to mahi i te whenua kaua e hoko taniwha hau. </p>
+ 
+                    <p> Ko tenei kararehe o te motuka he miihini 850cc ka taea te haere mai i te 0 ki te 100kph i roto noa i te 14 hēkona ka eke ki runga i te 137kph, a na tana miihini hurihuri ka ora koe i te moni mo te utu pertrol i te waa roa.  
+                    </p>
+ 
+<p>   Ko tetahi atu take mo te hoko i a maatau waka he tino pai te utu me te utu utu ki nga waka hou; kei te pai tonu te mahi a ka taea e koe te kawe mai i tera waahi ki tera waahi me tana miihini miiharo ohaoha te utu $19,079.00 NZD</p>
+ 
+ 
+<p> Ka peia pea koe e ona wira e toru, engari ka whakakaia e koe te miihini ka huri koe i tetahi kararehe kua rite ki te toro haere i nga huarahi, ano he raiona e whai ana i te kahera.</p></sub>
+</div>                  
+                </section>
+                <section class="grid-image">
+ 
+                </section>
+                <section class="grid-footer">
+                    <!-- disclaimer info here (or site related links)-->
+                <p>Saihan Qimuge &copy; 2022</p>    
+                </section>
+            </div>
+        </main>      
+    </body>
+</html>
