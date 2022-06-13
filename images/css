@@ -1,0 +1,124 @@
+@charset "UTF-8";
+ 
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 7px 15px rgba(104. 104, 104, 0.8);
+}
+ 
+.wrapper {
+    display: grid;
+    gap: 20px;
+}
+ 
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+}
+ 
+body {
+    background: rgb(122, 122, 122);
+    margin: 20px 20px;
+    line-height: 1.4em;
+}
+ 
+.main-nav ul {
+    display: grid;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ 
+.main-nav a {
+    background: var(--primary);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    box-shadow: var(--shadow);
+    border-radius: 17px 0px 17px 0px;
+    /*border-radius: 50%;*/
+}
+ 
+.main-nav a:hover {
+    background: rgb(0, 70, 0);
+    color: rgb(255, 255, 255);
+}
+ 
+header h1:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(19, 160, 0);
+    display: block;
+    text-decoration: none;
+    border-radius: 0px 17px 17px 0px;
+    height: 45px;
+    width: auto;
+}
+ 
+header p:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(20, 170, 0, 0.356);
+    display: block;
+    text-decoration: none;
+    border-radius: 0px 17px 17px 0px;
+    width: auto;
+}
+ 
+ 
+/*
+body {
+    margin: 0;
+    height: 100vh;
+}
+*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-template-areas: "grid-head grid-head grid-head" "grid-image grid-image grid-text" "grid-image grid-image grid-text" "grid-footer grid-footer grid-footer";
+    height: 100vh;
+    margin: 1em;    
+}
+ 
+section.grid-head {
+    grid-area: grid-head;
+    background: #036100;
+    border-radius: 0px 50px 0px 0px;
+
+}
+ 
+section.grid-image {
+    grid-area: grid-image;
+    /*background: #fffadf;*/
+    background: url('..//images/Reliant-Robin-web1.jpg');
+    /*object-fit: cover;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
+    position: relative;
+ 
+section.grid-text {
+    grid-area: grid-text;
+    background: var(--primary);
+    margin-right: auto;
+    margin-left: auto;
+    /*margin-top: auto;
+    margin-bottom: auto;*/
+    font-size: 1em;
+}
+ 
+.text {
+    object-position: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+ 
+section.grid-footer {
+    grid-area: grid-footer;
+    background:#829487;
+}
